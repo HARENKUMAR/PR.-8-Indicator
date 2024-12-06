@@ -2,7 +2,7 @@
 
 void calculateCubes(int*ptr) 
 {
-    printf("%d ",(*ptr)*(*ptr)*(*ptr));
+    printf("%d",(*ptr)*(*ptr)*(*ptr));
 }
 
 int main()
