@@ -19,9 +19,9 @@ int main()
     
     printf("Enter array elements\t:\n");
     for(i=0; i<row; i++) 
-	{
+    {
         for(j=0; j<col; j++) 
-		{
+	{
             printf("a[%d][%d] = ", i,j);
             scanf("%d",&array[i][j]);
         }
@@ -29,10 +29,10 @@ int main()
     
     printf("\nCubes of all elements\t: \n");
     for(i=0; i<row; i++) 
-	{
+     {
         for(j=0; j<col; j++) 
-		{
+	{
             calculateCubes(&array[i][j]);
         }
-    }
+     }
 }
